@@ -1,0 +1,26 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+
+[packages]
+
+aiohttp = "*"
+async-timeout = "*"
+certifi = "*"
+chardet = "*"
+discord.py = "*"
+giphy-client = "*"
+multidict = "*"
+pip = "*"
+python-dateutil = "*"
+setuptools = "*"
+six = "*"
+urllib3 = "*"
+websockets = "*"
+
+
+[requires]
+
+python_version = "3.6"
