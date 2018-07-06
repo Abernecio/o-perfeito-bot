@@ -8,7 +8,7 @@ verify_ssl = true
 
 aiohttp = "*"
 async-timeout = "*"
-discord.py = "*"
+discord = "*"
 giphy-client = "*"
 multidict = "*"
 python-dateutil = "*"
