@@ -1,1 +1,0 @@
-web: abernecio o-perfeito-bot.git
