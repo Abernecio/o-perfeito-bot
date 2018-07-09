@@ -1,6 +1,7 @@
 import discord
 import safygiphy
 import requests
+import io
 from discord.ext import commands
 
 TOKEN = "NDY0NDU0NjU3MzEwMTk1NzEy.Dh_25Q.cq2Jyk6REUE9Kkq51qoCLxuGgZM"
@@ -43,7 +44,7 @@ async def on_message(message):
         resposta = requests.get(
             str(randgif.get('data', {}).get('image_original_url')), stream=True
         )
-        await client.send_message('Eis um gif com a tag: ' + gif_tag)
+        await client.send_message(message.channel, 'Eis um gif com a tag: ' + gif_tag)
         await client.send_file(message.channel, io.BytesIO(resposta.raw.read()), filename='video.gif')
 
 client.run(TOKEN)
