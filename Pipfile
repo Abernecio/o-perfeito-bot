@@ -13,7 +13,8 @@ giphy-client = "*"
 multidict = "*"
 python-dateutil = "*"
 six = "*"
-urllib3 = "*"
+safygiphy = "*"
+requests = "*"
 websockets = "*"
 
 
