@@ -16,7 +16,6 @@ six = "*"
 safygiphy = "*"
 requests = "*"
 websockets = "*"
-io = "*"
 
 
 [requires]
