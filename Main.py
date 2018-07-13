@@ -47,4 +47,7 @@ async def on_message(message):
         await client.send_message(message.channel, 'Eis um gif com a tag: ' + gif_tag)
         await client.send_file(message.channel, io.BytesIO(resposta.raw.read()), filename='video.gif')
 
+    if message.content.startswith('!ping'):
+        await client.say("Pong!")
+
 client.run(TOKEN)
